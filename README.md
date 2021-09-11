@@ -1,3 +1,3 @@
 # Hacker-News-Search
 Created with CodeSandbox
-https://wkto2.csb.app/
+https://hacker-news-search12.netlify.app
