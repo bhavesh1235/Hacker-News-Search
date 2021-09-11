@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { useGlobalContext } from "../context.js";
 
 const Stories = () => {
@@ -20,14 +20,9 @@ const Stories = () => {
               comments
             </p>
             <div>
-              <a
-                href={url}
-                className="read-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link to={`/stories/${objectID}`} className="read-link">
                 read more
-              </a>
+              </Link>
               <button
                 className="remove-btn"
                 onClick={() => removeStory(objectID)}
